@@ -11,4 +11,5 @@ public class Book {
 
     @Id(LongIdHandler.class)
     private Long id;
+    private String BooksName;
 }
